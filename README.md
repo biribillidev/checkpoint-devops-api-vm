@@ -6,14 +6,28 @@ Este projeto consiste em uma aplicação Java Spring Boot integrada a um banco d
 A aplicação implementa um CRUD de transações financeiras.
 
 ---
-## Arquitetura
+## ⚙ Arquitetura
 
-* 🐳 **Docker**
-* ☕ **Java 17 + Spring Boot**
-* 🗄️ **MySQL 8**
-* ☁️ **Azure Virtual Machine**
+* ![Docker](https://img.shields.io/badge/Docker-Containerized-blue) **Docker**
+* ![Java](https://img.shields.io/badge/Java-17-orange) **Java 17**
+* ![Spring Boot](https://img.shields.io/badge/SpringBoot-API-green) **Spring Boot**
+* ![MySQL](https://img.shields.io/badge/MySQL-Database-blue) **MySQL 8**
+* ![Status](https://img.shields.io/badge/status-active-success) **Azure Virtual Machine**
 
 ---
+
+📂 Estrutura do Projeto
+.
+├── mysql-dimdim/
+│   ├── Dockerfile.mysql
+│   └── init.sql
+│
+├── transacoes-api/
+│   ├── src/
+│   ├── pom.xml
+│   └── Dockerfile.api
+│
+└── README.md
 
 ## 🛠️ Como Acessar o Projeto
 
