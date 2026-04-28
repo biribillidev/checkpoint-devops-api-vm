@@ -7,6 +7,24 @@ A aplicação implementa um CRUD de transações financeiras.
 
 ---
 
+1. Ligar a VM
+Conectar via SSH normalmente:
+
+ssh adminlnx@IP_DA_VM
+
+2. Verificar containers
+docker ps -a
+
+Deve aparecer:
+
+mysql-dimdim api-dimdim
+
+3. Subir containers (se não estiverem rodando)
+docker start mysql-dimdim
+
+espera ~10 segundos
+
+docker start api-dimdim
 ## 🧪 Testes da API
 
 ### Listar transações
