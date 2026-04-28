@@ -1,7 +1,5 @@
 # Checkpoint 2 - DevOps (Api Java e SQL na VM)
 
-# 🐱‍🏍 **Projeto**
-
 ## 📌 Descrição
 Este projeto consiste em uma aplicação Java Spring Boot integrada a um banco de dados MySQL, utilizando Docker para containerização e execução em ambiente cloud (Azure VM).
 
