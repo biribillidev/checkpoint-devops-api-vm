@@ -13,18 +13,9 @@ A aplicação implementa um CRUD de transações financeiras.
 * 🗄️ **MySQL 8**
 * ☁️ **Azure Virtual Machine**
 
-A comunicação entre os containers ocorre por meio de uma rede Docker interna.
-
-## 📦 Containers
-
-| Serviço | Nome | Porta |
-| :--- | :--- | :--- |
-| MySQL | mysql-dimdim | 3306 |
-| API | api-dimdim | 8080 |
-
 ---
 
-## 🛠️ Como Operar o Projeto
+## 🛠️ Como Acessar o Projeto
 
 ### 1. Ligar a VM
 Conectar via SSH normalmente:
