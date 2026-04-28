@@ -16,7 +16,7 @@ A aplicação implementa um CRUD de transações financeiras.
 
 ---
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 ```bash
 .
 ├── mysql-dimdim/
