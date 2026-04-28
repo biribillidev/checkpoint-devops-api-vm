@@ -7,36 +7,6 @@ Este projeto consiste em uma aplicação Java Spring Boot integrada a um banco d
 
 A aplicação implementa um CRUD de transações financeiras.
 
-## 🧱 Arquitetura
-* 🐳 **Docker**
-* ☕ **Java 17 + Spring Boot**
-* 🗄️ **MySQL 8**
-* ☁️ **Azure Virtual Machine**
-
----
-
-## 🛠️ Como Acessar o Projeto
-
-### 1. Ligar a VM
-Conectar via SSH normalmente:
-```bash
-ssh admlinux@IP_DA_VM
-```
-### 2. Subir containers
-```bash
-docker start mysql-dimdim
-```
-*Aguarde cerca de 10 segundos para o banco inicializar.*
-```bash
-docker start api-dimdim
-```
-
-### 3. Verificar se os containers estão funcionando
-Mostrar que tudo está rodando corretamente:
-```bash
-docker ps
-```
-
 ---
 
 ## 🧪 Testes da API
