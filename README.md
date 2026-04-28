@@ -8,15 +8,16 @@ A aplicação implementa um CRUD de transações financeiras.
 ---
 ## ⚙ Arquitetura
 
-* ![Docker](https://img.shields.io/badge/Docker-Containerized-blue) **Docker**
-* ![Java](https://img.shields.io/badge/Java-17-orange) **Java 17**
-* ![Spring Boot](https://img.shields.io/badge/SpringBoot-API-green) **Spring Boot**
-* ![MySQL](https://img.shields.io/badge/MySQL-Database-blue) **MySQL 8**
-* ![Status](https://img.shields.io/badge/status-active-success) **Azure Virtual Machine**
+* ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+* ![Java](https://img.shields.io/badge/Java-17-orange)
+* ![Spring Boot](https://img.shields.io/badge/SpringBoot-API-green) 
+* ![MySQL](https://img.shields.io/badge/MySQL-Database-blue) 
+* ![Status](https://img.shields.io/badge/status-active-success) 
 
 ---
 
 📂 Estrutura do Projeto
+```bash
 .
 ├── mysql-dimdim/
 │   ├── Dockerfile.mysql
@@ -28,6 +29,7 @@ A aplicação implementa um CRUD de transações financeiras.
 │   └── Dockerfile.api
 │
 └── README.md
+```
 
 ## 🛠️ Como Acessar o Projeto
 
